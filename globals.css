@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app{
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(79deg, #7439db , #c66f8c 48%, #f7944d);
+
+}
+.px4-py8, .login-form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 53px;
+}
+.px4-py8{
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+.header{
+  font-size: 26px;
+}
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+
+}
+button{
+  border:none;
+  border-radius: 10px;
+  background-color:white;
+  padding: 20px;
+  cursor: pointer;
+
+}
+.link-btn {
+background: none;
+color: black;
+text-decoration: underline;
+
+}
+.dashboard{
+  display: grid;
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+.head {
+  font-size: 35px;
+}
+.course{
+  font-size: 20px;
+  margin-top: 30px;
+}
+.attendence{
+  display: block;
+        border: 1px solid white;
+        padding: 24px;
+        border-radius: 10px;
+        margin-left: 20px;
+}
+.confirmation{
+  padding: 26px;
+}
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
